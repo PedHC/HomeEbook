@@ -5,16 +5,14 @@ import SectionBuy from "./sections/buy";
 import SectionProducts from "./sections/products";
 import SectionBonus from "./sections/bonus";
 
-export default function Home(){
-    return(
-        <Container
-        maxWidth={false} 
-        >
-            <SectionTitle></SectionTitle>
-            <SectionBeneficts></SectionBeneficts>
-            <SectionProducts></SectionProducts>
-            <SectionBonus></SectionBonus>
-            <SectionBuy></SectionBuy>
-        </Container>
-    )
+export default function Home() {
+  return (
+    <Container maxWidth={false}>
+      <SectionTitle></SectionTitle>
+      <SectionBeneficts></SectionBeneficts>
+      <SectionProducts></SectionProducts>
+      <SectionBonus></SectionBonus>
+      <SectionBuy></SectionBuy>
+    </Container>
+  );
 }
